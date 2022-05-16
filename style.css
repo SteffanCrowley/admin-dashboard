@@ -31,6 +31,7 @@
   grid-template-columns: auto 1fr;
   grid-template-rows: repeat(1, 100px) repeat(5, auto) repeat(1, 100px);
   gap: 15px;
+  color: white;
 }
 
 .main-area {
@@ -81,4 +82,8 @@
 
 .trending-title {
   align-self: end;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 48;
 }
